@@ -1,30 +1,102 @@
-# React + TypeScript + Vite
+# Gary Postres Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una breve descripción de lo que hace tu proyecto y para qué sirve.
 
-Currently, two official plugins are available:
+## Tabla de Contenidos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Scripts](#scripts)
+- [Configuración](#configuración)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+- [Contribuir](#contribuir)
+- [Licencia](#licencia)
+- [Contacto](#contacto)
 
-## Expanding the ESLint configuration
+## Instalación
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Para instalar las dependencias del proyecto, ejecuta:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+yarn install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Uso
+
+Instrucciones sobre cómo usar tu proyecto:
+
+```bash
+yarn dev
+```
+
+## Scripts
+
+Lista de scripts disponibles:
+
+- `yarn dev`: Inicia el servidor de desarrollo.
+- `yarn build`: Genera la build de producción.
+- `yarn serve`: Sirve la build de producción.
+- `yarn lint`: Ejecuta ESLint para analizar el código.
+- `yarn format`: Ejecuta Prettier para formatear el código.
+- `yarn test`: Ejecuta las pruebas con Jest.
+
+## Configuración
+
+### ESLint
+
+ESLint está configurado para asegurar la calidad del código. Puedes encontrar la configuración en el archivo `.eslintrc.json`.
+
+### Prettier
+
+Prettier está configurado para formatear el código automáticamente. Puedes encontrar la configuración en el archivo `.prettierrc`.
+
+### Husky y Lint-Staged
+
+Husky y Lint-Staged están configurados para ejecutar scripts en los hooks de Git. Puedes encontrar la configuración en el archivo `package.json`.
+
+## Estructura del Proyecto
+
+```plaintext
+my-project/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── hooks/
+│   ├── pages/
+│   ├── services/
+│   ├── utils/
+│   ├── App.tsx
+│   ├── index.tsx
+├── .eslintrc.json
+├── .prettierrc
+├── .gitignore
+├── package.json
+├── tsconfig.json
+├── README.md
+```
+
+## Contribuir
+
+Si deseas contribuir a este proyecto, sigue estos pasos:
+
+1. Realiza un fork del repositorio.
+2. Crea una nueva rama (`git checkout -b feature/nueva-caracteristica`).
+3. Realiza tus cambios y haz commit (`git commit -am 'Añadir nueva característica'`).
+4. Haz push a la rama (`git push origin feature/nueva-caracteristica`).
+5. Abre un Pull Request.
+
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para obtener más detalles.
+
+## Contacto
+
+Nombre del Autor - [@tuusuario](https://twitter.com/tuusuario) - tuemail@correo.com
+
+Link del Proyecto: [https://github.com/tuusuario/nombre-del-proyecto](https://github.com/tuusuario/nombre-del-proyecto)
+
+```
+
+Puedes llenar los campos en blanco con la información específica de tu proyecto.
+```
