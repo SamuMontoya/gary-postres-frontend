@@ -1,7 +1,5 @@
+import { LoginTemplate } from '../../templates'
+
 export const Login = () => {
-  return (
-    <div>
-      <p>Login</p>
-    </div>
-  )
+  return <LoginTemplate />
 }
