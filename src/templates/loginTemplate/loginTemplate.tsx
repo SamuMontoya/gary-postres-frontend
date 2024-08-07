@@ -20,14 +20,14 @@ export const LoginTemplate = () => {
         <p className="max-w-56 text-center py-5">
           Ingresa tu correo y contraseña para iniciar
         </p>
-        <p>Input Correo</p>
-        <p>Input Contraseña</p>
-        <p>Botón Iniciar sesión</p>
+        <p data-testid="email-input">Input Correo</p>
+        <p data-testid="password-input">Input Contraseña</p>
+        <p data-testid="login-button">Botón Iniciar sesión</p>
         <p className="p-5">O continúa con:</p>
         <div className="flex gap-5">
-          <p>Botón Google</p>
-          <p>Botón Apple</p>
-          <p>Botón Facebook</p>
+          <p data-testid="google-button">Botón Google</p>
+          <p data-testid="apple-button">Botón Apple</p>
+          <p data-testid="facebook-button">Botón Facebook</p>
         </div>
         <div className="text-center p-5">
           <p>No tengo una cuenta, ir a</p>
