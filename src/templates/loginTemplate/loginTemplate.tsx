@@ -2,7 +2,10 @@ import { Images } from '../../interfaces'
 
 export const LoginTemplate = () => {
   return (
-    <section className="bg-[#F5E8DF] w-full h-[100vh] flex">
+    <section
+      className="bg-[#F5E8DF] w-full h-[100vh] flex"
+      data-testid="login-template"
+    >
       <div className="bg-[#D91B5E] flex-1 flex">
         <img
           src={Images.LOGO_BACKGROUND_RED}
